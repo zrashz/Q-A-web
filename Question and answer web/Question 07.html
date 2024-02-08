@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="view point" content="width=device-width,intial-scale=1.0">
+    <link rel="stylesheet"href="style1.css">
+   <title>Question 07</title>
+   <style type="text/css">
+    
+   
+    
+    td{
+        
+        border-style: outset;
+        border-color: blue;
+        border-width: 4px;
+    }
+   
+
+caption.top{caption-side: top;}
+caption.bottom{caption-side: bottom;}
+caption.right{caption-side: right;}
+caption.left{caption-side: left;}
+
+table{
+    border-color: red;
+    border-style: double;
+}
+  
+</style>
+    </head>
+    <body>
+        <section class="subheader">
+            <nav>
+             <a href="index.html"><img src="logo.jpg"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hidemenu()"></i>
+
+                 
+                       
+                    <ul>
+                        <li><a href="Question 01.html">Question 01</a></li>
+                        <li><a href="Question 02.html">Question 02</a></li>
+                        <li><a href="Question 03.html">Question 03</a></li>
+                       <li><a href="Question 04.html">Question 04</a></li>
+                        <li><a href="Question 05.html">Question 05</a></li>
+                        <li><a href="Question 06.html">Question 06</a></li>
+                        <li><a href="Question 07.html">Question 07</a></li>
+                        <li><a href="Question 08.html">Question 08</a></li>
+                        <li><a href="Question 09.html">Question 09</a></li>
+                        <li><a href="Question 10.html">Question 10</a></li>
+                   
+                   
+                        
+                    </ul>
+                
+                </div>
+                <i class="fa fa-bars" onclick="showmenu()"></i></i>
+            </nav>
+            <h1>Question 07</h1>
+        </section>
+        <section class="Question07">
+            <h1>Question</h1>
+            <p> Compare and contrast client-side and server-side scripting, providing examples of each.</p>
+            <p>Web development involves both client-side scripting and server-side scripting, working together to deliver dynamic and interactive web experiences. However, they differ significantly in where and how the code is executed</p>
+            <table align="center" border="1" width="75%">
+                <thead>
+                    <tr>
+                        <td align="center"><b>
+                            Client-Side Scripting</b></td>
+                        
+                        <TD align="center"><b>Server-Side Scripting</b></TD>
+                        
+                    </tr>
+                </thead>
+                <tr> <div style="cursor:default">
+                    <td>Execution: Code runs directly on the user's web browser.</td>
+                    <td>Execution: Code runs on the web server before sending the response back to the user's browser.</td>             
+                </tr>
+                <tr>
+                    <td>Languages: Primarily uses JavaScript, but other languages like WebAssembly are gaining traction.</td>
+                    
+                    <td>Languages: Popular choices include PHP, Python, Ruby, Java, and Node.js.</td>
+                </tr>
+                <tr>
+                    <td>Functionality: Primarily used for manipulating the user interface, validating user input, and providing real-time interactivity without refreshing the entire page.
+                    </td>
+                    <td>Functionality: Used for tasks like generating dynamic content, accessing databases, processing user requests, and managing user accounts.</td>
+                    
+                </tr>
+                <tr>
+                    <td>Examples:<br>
+                        Adding animations and interactive elements (e.g., drop-down menus, image carousels).<br>
+                        Validating form data before submission.<br>
+                        Implementing real-time chat applications.</td>
+                        <td>Examples:<br>
+                            Creating personalized login experiences.<br>
+                            Storing and retrieving user data from a database.<br>
+                            Sending emails based on user actions.<br>
+                            Processing online payments securely.</td>
+                </tr>
+                <tr>
+                    <td>Advantages:<br>
+                        Faster response times as data doesn't need to travel to the server and back.<br>
+                        Reduces server load, allowing it to handle more complex tasks.<br>
+                        Can function offline in some cases (limited functionality).
+                        </td>
+                        <td>Advantages:
+                            More secure as sensitive data stays on the server, not the user's machine.<br>
+                            Access to server resources and databases for complex tasks.<br>
+                            Consistent functionality across different devices and browsers.<br>
+                            </td>
+                </tr>
+                <tr>
+                    <td>Disadvantages:<br>
+                        Limited access to resources and data on the user's machine.<br>
+                        Vulnerable to security risks if malicious code is injected.<br>
+                        Relies on user's browser capabilities and may not work consistently across all devices.<br></td>
+                        <td>Disadvantages:<br>
+                            Slower response times as data needs to travel between server and browser.<br>
+                            Higher server load compared to client-side scripting.<br>
+                            Requires a reliable server connection.</td>
+                </tr>
+                
+            </table>
+        </section>
+        <footer>
+            <p>&copy;2024 your website name.all rights reserved</p>
+        </footer>
+
+    </body>
+</html>

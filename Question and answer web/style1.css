@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+ .header{
+    min-height:100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 10, 34, 0.7),rgba(2, 5, 17, 0.7)),url(r6II.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+ }
+nav{
+    display: flex;
+    padding: 3% 8%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+    background: #dde5e7;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: azure;
+    text-decoration: none;
+    font-size: 19px;
+    font-family:'Times New Roman', Times, serif;
+}
+.nav-links ul li::after{
+    content: none;
+    width: 100%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+.text-box h1{
+    font-size: 65px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 19px;
+    color: #fff;
+}
+.hero-btn{
+    display:inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+nav.fa{
+    display: none;
+}
+.hero-btn:hover{
+    border: 1px solid red;
+    background: red;
+    transition: 1s;
+}
+.popup{
+    width: 1500px;
+    height: 600px;
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)scale(1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.4s,top 0.4s;
+}
+.open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%,-50%)scale(0.1);
+}
+.popup img{
+    width: 200px;
+    margin-top: -50%;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(232, 222, 222, 0.2);
+}
+.popup h2{
+    font-size: 100px;
+    color: #272424;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+.popup button{
+    width: 200px;
+    margin-top: 70px;
+    padding: 50px 0;
+    background: #36f498;
+    color: #f70a0a;
+    border: 2;
+    outline: none;
+    font-size: 50px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2); ;
+}
+.subheader{
+    height: 50%;
+    width:100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(r6II.jpg);
+    background-position: cover;
+    text-align: center;
+    color: #fff;
+}
+.subheader h1{
+    margin-top: 100px;
+}
+.Question01{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px ;
+
+}
+h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+ .Question01 P{
+    color: rgb(29, 24, 27);
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 22px;
+    padding: 10px;
+}
+.Question01{
+    margin:100px auto;
+    width:100%;
+    background-image: linear-gradient(rgba(223, 226, 240, 0.7),rgba(229, 231, 240, 0.7)),url(p1.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+.Q2 P{
+    color: rgb(151, 11, 81);
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.Question02{
+    margin:100px auto;
+    width:100%;
+    background-image: linear-gradient(rgba(223, 226, 240, 0.7),rgba(18, 56, 227, 0.7)),url(p3.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+.Q2-col{
+    flex-basis: 31%;
+    background: #89a009;
+    border-radius: 100px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.Q2-col:hover{
+    box-shadow: 0 0 20px 0px rgba(242, 233, 233, 0.2);
+}
+.Q2b-col{
+    flex-basis: 31%;
+    background: #89a009;
+    border-radius: 100px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.Q2b-col:hover{
+    box-shadow: 0 0 20px 0px rgba(242, 233, 233, 0.2);
+}
+.q3-content{
+    width: 80%;
+    margin: auto;
+    padding: 60px 0;
+}
+.q3-left {
+    flex-basis: 65%;
+}
+.q3-left img{
+    width: 80%;
+}
+.q3-left h2{
+    color: #222;
+    font-weight: 600;
+    margin: 30px 0;
+}
+.q3-left p{
+    color:#222020;
+    padding: 0;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.q3-right{
+    flex-basis: 32%;
+}
+.q3-right h3{
+    background:red;
+    color: aliceblue;
+    padding: 7px 0;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.q3-right div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:#534848;
+    padding: 8px;
+    box-sizing: border-box;
+    font-size: 19px;
+}
+.comment-box{
+    border:1px solid#272424;
+    margin:50px 0;
+    padding: 10px 20px;
+}
+.comment-box h3{
+    text-align:left;
+
+}
+.comment-form input,.comment-form textarea{
+    width:100px;
+    padding:10px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: #f0f0f0;
+}
+.comment-form button{
+    margin: 10px 0;
+}
+footer{
+    background-color:black;
+    color: beige;
+    text-align: center;
+    padding: 40px;
+    font-size: 19px;
+}
+.dd h1{
+    color: blue;
+    padding: 20px;
+}
+
+.dd  td{
+    border-style: solid;
+    border-width: 7px;
+    border-color: rgb(226, 43, 80);
+}
+
+.q4{
+background-color: pink;
+}
+.Question06{
+    margin:100px auto;
+    width:100%;
+    background-image: linear-gradient(rgba(234, 240, 223, 0.7),rgba(238, 246, 231, 0.7)),url(p2.webp);
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+.Question07{
+    margin:100px auto;
+    width:100%;
+    background-image: linear-gradient(rgba(234, 240, 223, 0.7),rgba(238, 246, 231, 0.7)),url(p4.png);
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+.Question09{
+    margin:100px auto;
+    width:100%;
+    background-image: linear-gradient(rgba(234, 240, 223, 0.7),rgba(207, 243, 47, 0.7)),url(q9.jpeg);
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}

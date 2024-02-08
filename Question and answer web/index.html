@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="view point" content="width=device-width,intial-scale=1.0">
+    <link rel="stylesheet"href="style1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+   
+        <title>My Web Page</title>
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+               
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hidemenu()"></i>
+
+                    <ul> <li><a href="Question 01.html">Question 01</a></li>
+                        <li><a href="Question 02.html">Question 02</a></li>
+                        <li><a href="Question 03.html">Question 03</a></li>
+                       <li><a href="Question 04.html">Question 04</a></li>
+                        <li><a href="Question 05.html">Question 05</a></li>
+                        <li><a href="Question 06.html">Question 06</a></li>
+                        <li><a href="Question 07.html">Question 07</a></li>
+                        <li><a href="Question 08.html">Question 08</a></li>
+                        <li><a href="Question 09.html">Question 09</a></li>
+                        <li><a href="Question 10.html">Question 10</a></li>
+                   
+                        
+                    </ul>
+                </div>
+            </nav>
+            <div class="text-box">
+                <h1>FOUNDATIONS OF WEB TECHNOLOGIES</h1>
+                <h2>Design and develop client side dynamic tutorial Web site to publish questions and answers related
+                    to foundation of web technologies subject.</h2>
+                <p>Explain different components & technologies of the World Wide Web as a
+                    platform<br>Describe various web technology
+                   Develop websites using fundamental web languages, technologies, & tools.<br>
+                </p>
+                <br>
+                <button type="" class="hero-btn"onclick="openpopup()">VISIT US TO KNOW MORE</button>
+                <div class="popup" id="popup">
+                    <img src="co1.jpg">
+                    <h2>Thank you!</h2>
+                    
+                    <button type="button"onclick="closepopup()">ok</button>
+                </div>
+            </div>
+            <script>
+                let popup=document.getElementById("popup");
+                function openpopup(){
+                    popup.classList.add("open-popup");
+                }
+                function closepopup(){
+                    popup.classList.remove("open-popup");
+                }
+            
+            
+            </script>
+        </section>
+    </body>
+</html>
